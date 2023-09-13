@@ -11,6 +11,12 @@
 
 // Part 1 answer 👇🏻 ...
 
+let fullName = "Virat Kohli";
+let yearOfBirth = 1988;
+let hobby = "Playing Cricket";
+let funFact = "I am a Run Machine";
+const image = "https://imageio.forbes.com/specials-images/imageserve/5ecebee7938ec500060ab34f/0x0.jpg?format=jpg&crop=2336,2337,x1064,y702,safe&height=416&width=416&fit=bounds";
+console.log (fullName + yearOfBirth + hobby + funFact + image)
 
 
 
@@ -29,9 +35,9 @@
  * You can uncomment a line by removing the // at the start
  */
 
-// const fullNameString = `My name is ${}`;
-// const yearOfBirthString =
-// const hobbyString =
+const fullNameString = `My name is ${fullName}`;
+const yearOfBirthString = `I am ${2023-yearOfBirth}`;
+const hobbyString = `My hobby is ${hobby}`
 
 
 
@@ -45,14 +51,20 @@ let stars = 0;
 
 function incrementBy1() {
   // Increment stars by 1 👇🏻
+  stars++
 }
+
 function decrementBy1() {
   // decrement stars by 1 👇🏻
+  stars--
 }
 
 function incrementBy2() {
   // Increment stars by 2 👇🏻
+  stars = stars +2
 }
+
 function decrementBy2() {
   // decrement stars by 2 👇🏻
+  stars = stars -2
 }
